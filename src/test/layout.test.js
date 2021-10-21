@@ -122,29 +122,4 @@ describe("Layout ", () => {
     });
     //expect(mockHistoryPush).toHaveBeenCalledWith("/");
   });
-  test("Should render list of show name when clicked on search field ", async () => {
-    await act(async () => {
-      render(
-        <MemoryRouter initialEntries={["details/1"]}>
-          <Route history={historyMock} path="details/:id">
-            <Layout
-              history={useHistory()}
-              searchFieldData={searchFieldData}
-              querySearch={querySearch}
-            />
-          </Route>
-        </MemoryRouter>,
-        container
-      );
-    });
-    expect(container).toBeDefined();
-    await act(async () => {
-      fireEvent.click(
-        document.querySelector("[data-testid=searchInputParent]")
-      );
-    });
-    expect(
-      document.querySelector("[data-testid=searchInputList]")
-    ).toBeDefined();
-  });
 });
