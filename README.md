@@ -52,11 +52,11 @@ Below I show you the packages I developed the application with:
 - CSS framework: Material UI
 - server : json-server
 
-React help in building single page application using reuseable components compatable with all major browsers,
+**React** helps in building single page application using reuseable components that are usually compatable with all major browsers,
 
-I have used create react app boiler plate code to setup the project
+I used create react app boiler plate code to setup the project
 
-Json-serve - help to create a fake backing enviroment for front end development when API calls are not avaliable but the the developer is aware of the schema and to keep the work moving. This is not a production releable resourse.
+Json-serve - helps to create a proxy instance of back-end enviroment to facilitate front end development in accordance, exclusively when API calls are not avaliable but the the developer is aware of the schema. (This is not a production reliable resourse)
 
 Material-UI gives the basic CSS, layout to quickly build the application. I have used it for the layout part.
 
@@ -113,7 +113,7 @@ http://localhost:3000/cart - to view products in cart.
 
 ### Things to work on
 
-I have stared developing this app with an intent to show case my technical skill set in setting up the project architechture and flow. In the process i have acheved it but the obvios expected behavior is not full avaliable which requiers some more time to work on which I could not pull it of. I have spend 6 hr of effort on this app to bring it to the current stage.
+I developed this app with the intent for showing my technical skill set in setting up the project architechture and flow. The base architecture to enhance the project efficacy are listed below. These are not made available to its evolved state due to limited time. I spent 6 hr of effort on this app to bring it to the current stage.
 
 These are few which can be worked on.
 
